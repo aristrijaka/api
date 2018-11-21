@@ -3,7 +3,7 @@ if(isset($_GET['q']) && !empty($_GET['q']))
 {
     $judul= $_GET['q'];
 }else{
-	$judul = 'CAPTAIN'; //inisiasi awal yang di cari 
+	$judul = 'CAPTAINS'; //inisiasi awal yang di cari 
 }
 $apikey= '28958498126627abaac10776d018b0f5';  // api key
 $language = 'en-US';  // bahasa
